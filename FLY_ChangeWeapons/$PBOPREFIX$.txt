@@ -1,0 +1,5 @@
+///////<HEADER>///////
+prefix=FLY_ChangeWeapons
+Pbo Type is: Arma Addon
+Sha: '688038A45320BC5F1CD89F47C7F298F162CDF3FE'
+//////</HEADER>//////

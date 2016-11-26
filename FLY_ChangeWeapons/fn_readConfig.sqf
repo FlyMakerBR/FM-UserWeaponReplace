@@ -1,0 +1,128 @@
+#include "\UserConfig\FLY_WeaponChange\settingsCSAT.hpp"
+#include "\UserConfig\FLY_WeaponChange\settingsNATO.hpp"
+#include "\UserConfig\FLY_WeaponChange\settingsAAF.hpp"
+#include "\UserConfig\FLY_WeaponChange\settingsFIA.hpp"
+
+replacefor_Katiba = USERSETTING_replaceKatiba;
+replacefor_KatibaGL = USERSETTING_replaceKatibaGL;
+replacefor_KatibaC = USERSETTING_replaceKatibaC;
+replacefor_Zafir = USERSETTING_replaceZafir;
+replacefor_Rahim = USERSETTING_replaceRahim;
+replacefor_LynxCamo = USERSETTING_replaceLynxCamo;
+replacefor_Sting = USERSETTING_replaceSting;
+replacefor_Navid = USERSETTING_replaceNavid;
+replacefor_Cyrus = USERSETTING_replaceCyrus;
+replacefor_ASP1 = USERSETTING_replaceASP1;
+replacefor_MX = USERSETTING_replaceMX;
+replacefor_MXGL = USERSETTING_replaceMXGL;
+replacefor_MXC = USERSETTING_replaceMXC;
+replacefor_MXSW = USERSETTING_replaceMXSW;
+replacefor_MXM = USERSETTING_replaceMXM;
+replacefor_M320 = USERSETTING_replaceM320;
+replacefor_Vermin = USERSETTING_replaceVermin;
+replacefor_SPMG = USERSETTING_replaceSPMG;
+replacefor_MKI = USERSETTING_replaceMKI;
+replacefor_MAR10 = USERSETTING_replaceMAR10;
+replacefor_MK20 = USERSETTING_replaceMK20;
+replacefor_MK20GL = USERSETTING_replaceMK20GL;
+replacefor_MK20C = USERSETTING_replaceMK20C;
+replacefor_MK200 = USERSETTING_replaceMK200;
+replacefor_MK18 = USERSETTING_replaceMK18;
+replacefor_LynxBlack = USERSETTING_replaceLynxBlack;
+replacefor_PDW = USERSETTING_replacePDW;
+replacefor_TGR21 = USERSETTING_replaceTGR21;
+replacefor_TGR21GL = USERSETTING_replaceTGR21GL;
+replacefor_TGR20 = USERSETTING_replaceTGR20;
+replacefor_MK200_FIA = USERSETTING_replaceMK200_FIA;
+replacefor_MK14 = USERSETTING_replaceMK14;
+
+replacefor_Ammo_CSAT =  [];
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoZafir;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoZafir_T;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoRahim;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoLynx;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoLynx_S;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoSting;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoNavid;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoCyrus;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoASP1;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoCSAT_GL1;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoCSAT_GL2;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoCSAT_GLSmoke1;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoCSAT_GLSmoke2;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoCSAT_GLSmoke3;
+replacefor_Ammo_CSAT pushBack USERSETTING_replaceAmmoCSAT_GLSmoke4;
+
+replacefor_Ammo_CSAT_More = [];
+replacefor_Ammo_CSAT_More pushBack USERSETTING_replaceAmmoKatiba;
+replacefor_Ammo_CSAT_More pushBack USERSETTING_replaceAmmoKatiba_T;
+replacefor_Ammo_CSAT_More pushBack USERSETTING_replaceAmmoKatibaGL;
+replacefor_Ammo_CSAT_More pushBack USERSETTING_replaceAmmoKatibaGL_T;
+replacefor_Ammo_CSAT_More pushBack USERSETTING_replaceAmmoKatibaC;
+replacefor_Ammo_CSAT_More pushBack USERSETTING_replaceAmmoKatibaC_T;
+
+replacefor_Ammo_NATO =  [];
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoMXSW;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoMXSW_T;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoM320;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoM320_S;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoVermin;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoSPMG;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoMKI;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoMAR10;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoNATO_GL1;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoNATO_GL2;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoNATO_GLSmoke1;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoNATO_GLSmoke2;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoNATO_GLSmoke3;
+replacefor_Ammo_NATO pushBack USERSETTING_replaceAmmoNATO_GLSmoke4;
+
+replacefor_Ammo_NATO_More = [];
+replacefor_Ammo_NATO_More pushBack USERSETTING_replaceAmmoMX;
+replacefor_Ammo_NATO_More pushBack USERSETTING_replaceAmmoMX_T;
+replacefor_Ammo_NATO_More pushBack USERSETTING_replaceAmmoMXGL;
+replacefor_Ammo_NATO_More pushBack USERSETTING_replaceAmmoMXGL_T;
+replacefor_Ammo_NATO_More pushBack USERSETTING_replaceAmmoMXC;
+replacefor_Ammo_NATO_More pushBack USERSETTING_replaceAmmoMXC_T;
+replacefor_Ammo_NATO_More pushBack USERSETTING_replaceAmmoMXM; 
+
+replacefor_Ammo_AAF =  [];
+replacefor_Ammo_AAF pushBack USERSETTING_replaceAmmoMK200;
+replacefor_Ammo_AAF pushBack USERSETTING_replaceAmmoMK200_T;
+replacefor_Ammo_AAF pushBack USERSETTING_replaceAmmoMK18;
+replacefor_Ammo_AAF pushBack USERSETTING_replaceAmmoLynxBlack;
+replacefor_Ammo_AAF pushBack USERSETTING_replaceAmmoLynxBlack_S;
+replacefor_Ammo_AAF pushBack USERSETTING_replaceAmmoPDW;
+replacefor_Ammo_AAF pushBack USERSETTING_replaceAmmoAAF_GL1;
+replacefor_Ammo_AAF pushBack USERSETTING_replaceAmmoAAF_GL2;
+replacefor_Ammo_AAF pushBack USERSETTING_replaceAmmoAAF_GLSmoke1;
+replacefor_Ammo_AAF pushBack USERSETTING_replaceAmmoAAF_GLSmoke2;
+replacefor_Ammo_AAF pushBack USERSETTING_replaceAmmoAAF_GLSmoke3;
+replacefor_Ammo_AAF pushBack USERSETTING_replaceAmmoAAF_GLSmoke4;
+
+replacefor_Ammo_AAF_More = [];
+replacefor_Ammo_AAF_More pushBack USERSETTING_replaceAmmoMK20;
+replacefor_Ammo_AAF_More pushBack USERSETTING_replaceAmmoMK20_T;
+replacefor_Ammo_AAF_More pushBack USERSETTING_replaceAmmoMK20GL;
+replacefor_Ammo_AAF_More pushBack USERSETTING_replaceAmmoMK20GL_T;
+replacefor_Ammo_AAF_More pushBack USERSETTING_replaceAmmoMK20C;
+replacefor_Ammo_AAF_More pushBack USERSETTING_replaceAmmoMK20C_T;
+
+replacefor_Ammo_FIA =  [];
+replacefor_Ammo_FIA pushBack USERSETTING_replaceAmmoMK200_FIA;
+replacefor_Ammo_FIA pushBack USERSETTING_replaceAmmoMK200_FIA_T;
+replacefor_Ammo_FIA pushBack USERSETTING_replaceAmmoMK14;
+replacefor_Ammo_FIA pushBack USERSETTING_replaceAmmoFIA_GL1;
+replacefor_Ammo_FIA pushBack USERSETTING_replaceAmmoFIA_GL2;
+replacefor_Ammo_FIA pushBack USERSETTING_replaceAmmoFIA_GLSmoke1;
+replacefor_Ammo_FIA pushBack USERSETTING_replaceAmmoFIA_GLSmoke2;
+replacefor_Ammo_FIA pushBack USERSETTING_replaceAmmoFIA_GLSmoke3;
+replacefor_Ammo_FIA pushBack USERSETTING_replaceAmmoFIA_GLSmoke4;
+
+replacefor_Ammo_FIA_More =  [];
+replacefor_Ammo_FIA_More pushBack USERSETTING_replaceAmmoTGR21;
+replacefor_Ammo_FIA_More pushBack USERSETTING_replaceAmmoTGR21_T;
+replacefor_Ammo_FIA_More pushBack USERSETTING_replaceAmmoTGR21GL;
+replacefor_Ammo_FIA_More pushBack USERSETTING_replaceAmmoTGR21GL_T;
+replacefor_Ammo_FIA_More pushBack USERSETTING_replaceAmmoTGR20;
+replacefor_Ammo_FIA_More pushBack USERSETTING_replaceAmmoTGR20_T;
